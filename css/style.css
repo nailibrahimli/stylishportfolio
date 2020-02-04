@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.topicon i{
+.topicon i {
     position: fixed;
     top: 15px;
     right: 15px;
@@ -16,26 +16,26 @@
     cursor: pointer;
 }
 
-.topicon i:hover{
+.topicon i:hover {
     background-color: #343a40;
 }
 
-.first{
+.first {
     text-align: center;
     padding: 182px 0;
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.first h1{
+.first h1 {
     font-size: 88px;
     font-weight: 700;
     color: #212529;
 }
 
-.first h3{
+.first h3 {
     font-size: 28px;
     font-weight: 700;
     color: #212529;
@@ -43,7 +43,7 @@
     margin-bottom: 50px;
 }
 
-.first button{
+.first button {
     color: #ffffff;
     font-size: 16px;
     background: #1d809f;
@@ -56,36 +56,36 @@
     cursor: pointer;
 }
 
-.first button:hover{
+.first button:hover {
     background-color: #155d74;
 }
 
-.second{
+.second {
     text-align: center;
     padding: 120px 0;
     background-color: #f8f9fa;
 }
 
-.second h2{
+.second h2 {
     font-size: 32px;
     color: #212529;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.second p{
+.second p {
     font-size: 20px;
     color: #212529;
     font-weight: 300;
     margin-bottom: 50px;
 }
 
-.second a{
+.second a {
     text-decoration: none;
     color: #1d809f;
 }
 
-.second button{
+.second button {
     color: #ffffff;
     font-size: 16px;
     background: #343a40;
@@ -98,71 +98,71 @@
     cursor: pointer;
 }
 
-.second button:hover{
+.second button:hover {
     background-color: #212529;
 }
 
-.third{
+.third {
     text-align: center;
     background-color: #1d809f;
-    padding: 120px 50px 330px 50px;
+    padding: 120px 50px 330px;
 }
 
-.third .third-text h3{
+.third .third-text h3 {
     color: #ecb807;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.third .third-text h2{
+.third .third-text h2 {
     color: #ffffff;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-.third .third-icon .icon-box{
+.third .third-icon .icon-box {
     width: 25%;
     float: left;
 }
 
-.third .third-icon .icon-box i{
+.third .third-icon .icon-box i {
     background-color: #1d809f;
     color: #ffffff;
     font-size: 7.5rem;
     margin-bottom: 20px;
 }
 
-.third .third-icon .icon-box h4{
+.third .third-icon .icon-box h4 {
     font-size: 24px;
     font-weight: bolder;
     color: #ffffff;
     margin-bottom: 10px;
 }
 
-.third .third-icon .icon-box p{
+.third .third-icon .icon-box p {
     color: rgba(255,255,255,.7);
     font-size: 16px;
 }
 
-.fourth{
+.fourth {
     text-align: center;
     padding: 238px 0;
-    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.fourth h2{
+.fourth h2 {
     font-size: 56px;
     color: #212529;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-.fourth button{
+.fourth button {
     color: #ffffff;
     font-size: 16px;
     background: #1d809f;
@@ -175,52 +175,51 @@
     cursor: pointer;
 }
 
-.fourth button:hover{
+.fourth button:hover {
     background-color: #155d74;
 }
 
-.fifth{
+.fifth {
     text-align: center;
     padding: 120px 0;
 }
 
-.fifth .fifth-text h3{
+.fifth .fifth-text h3 {
     color: #ecb807;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.fifth .fifth-text h2{
+.fifth .fifth-text h2 {
     color: #212529;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-.fifth .fifth-image{
+.fifth .fifth-image {
     width: 88%;
     margin: auto;
 }
 
-.fifth-image-text{
+.fifth-image-text {
     z-index: 999;
 }
 
-.fifth .fifth-image .image-box{
+.fifth .fifth-image .image-box {
     width: 50%;
     float: left;
     transition: 0.3s;
     position: relative;
 }
 
-
-.fifth .fifth-image .image-box:hover .overlay{
+.fifth .fifth-image .image-box:hover .overlay {
     background-color: #1d809f;
     opacity: 0.9;
 }
 
-.fifth .fifth-image .overlay{
+.fifth .fifth-image .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -228,16 +227,16 @@
     height: 98.5%;
     background-color: rgba(33,37,41,.2);
     opacity: 1;
-    transition: 0.8s;  
-} 
+    transition: 0.8s;
+}
 
-.fifth .fifth-image .image-box .fifth-image-text{
+.fifth .fifth-image .image-box .fifth-image-text {
     position: absolute;
     bottom: 85px;
     left: 80px;
 }
 
-.fifth .fifth-image .image-box .fifth-image-text h2{
+.fifth .fifth-image .image-box .fifth-image-text h2 {
     text-transform: uppercase;
     text-align: left;
     font-size: 12.8px;
@@ -246,7 +245,7 @@
     margin-bottom: 7px;
 }
 
-.fifth .fifth-image .image-box .fifth-image-text p{
+.fifth .fifth-image .image-box .fifth-image-text p {
     font-size: 19.2px;
     color: #fff;
     font-weight: 300;
@@ -254,33 +253,33 @@
     line-height: 1.5;
 }
 
-.fifth .fifth-image .image-box img{
+.fifth .fifth-image .image-box img {
     width: 100%;
 }
 
-.fifth .fifth-image .image-box:hover{
+.fifth .fifth-image .image-box:hover {
     transform: scale(0.87);
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.sixth{
+.sixth {
     text-align: center;
     background-color: #1d809f;
     padding: 120px 0;
     margin-top: 110px;
 }
 
-.sixth h2{
+.sixth h2 {
     color: #ffffff;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.sixth .btn1{
+.sixth .btn1 {
     color: #343a40;
     font-size: 16px;
     background: #ffffff;
@@ -294,11 +293,11 @@
     margin-right: 25px;
 }
 
-.sixth .btn1:hover{
+.sixth .btn1:hover {
     background-color: #e2e6ea;
 }
 
-.sixth button{
+.sixth button {
     color: #ffffff;
     font-size: 16px;
     background: #343a40;
@@ -311,22 +310,22 @@
     cursor: pointer;
 }
 
-.sixth button:hover{
+.sixth button:hover {
     background-color: #212529;
 }
 
-.social{
+.social {
     padding: 70px 480px;
     text-align: center;
 }
 
-.social .social-box{
+.social .social-box {
     width: 33%;
     float: left;
     margin-bottom: 50px;
 }
 
-.social .social-box i{
+.social .social-box i {
     font-size: 4rem;
     color: #1d809f;
     background-color: #fff;
@@ -334,17 +333,17 @@
     cursor: pointer;
 }
 
-.social .social-box i:hover{
+.social .social-box i:hover {
     color: #155d74;
 }
 
-.social p{
+.social p {
     color: #6c757d;
     font-size: 12.8px;
     font-weight: 400;
 }
 
-.boticon i{
+.boticon i {
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -355,6 +354,6 @@
     cursor: pointer;
 }
 
-.boticon i:hover{
+.boticon i:hover {
     background-color: #343a40;
 }
