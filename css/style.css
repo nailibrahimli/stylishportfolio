@@ -212,6 +212,7 @@
     float: left;
     transition: 0.3s;
     position: relative;
+    cursor: pointer;
 }
 
 .fifth .fifth-image .image-box:hover .overlay {
